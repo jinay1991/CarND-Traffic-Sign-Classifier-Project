@@ -1138,7 +1138,7 @@ with tf.Session() as sess:
            [37, 35, 34, 39, 40]], dtype=int32))
 
 
-### Question 3
+### Question 7
 
 *Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)*
 
@@ -1224,7 +1224,7 @@ def outputFeatureMap(image_input, tf_activation, activation_min=-1, activation_m
             plt.imshow(activation[0,:,:, featuremap], interpolation="nearest", cmap="gray")
 ```
 
-### Question 4
+### Question 8
 
 *Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?*
 
